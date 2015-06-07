@@ -1,11 +1,11 @@
-Scanfm
+ScanFM
 
 
 
 Scanfm is a pattern matching utility for finding patterns in DNA 
 data. It uses a backtracking algorithm to exhaustively find all
-matches on a given pattern in in a given data file. It uses pattern 
-units a way to split up search criterias and searches for each pattern
+matches on a given pattern in a given data file. It uses pattern 
+units, a way to split up search criterias and searches for each pattern
 unit in the order given by the user. A lot of the inspiration and 
 some code is taken from Scan_for_matches, a utility created by Ross 
 Overbeek. 
@@ -36,7 +36,7 @@ In order for Scanfm to work you need the following files:
 Installation:
 --------------------------------------------------------------------	
 The utility is created in c++, so you need a c++ compiler to compile.
-You can install a c++ compiler on ubuntu or other linux platforms by
+You can install a c++ compiler on ubuntu by
 typing the following in your terminal:
 	
 	sudo apt-get install g++
@@ -50,7 +50,7 @@ possibly
 
 	sudo make
 	
-This should result in a executable file called; scanfm. Now you are 
+This should result in a executable file called; scanfm. Now, you are 
 ready to run the utility.
 
 --------------------------------------------------------------------	
@@ -164,7 +164,7 @@ Reference can have mismatches, deletions and insertions the following way:
                            ||m|
         pattern =    ====--ACCT
 
-Here one mismatch was needed to get match when refering ti the saved data.
+Here one mismatch was needed to get match when refering to the saved data.
 
 Reference can also find its complementary sequence meaning the paired sequence
 that would bond, in the event it was turned around and bases, found their 
